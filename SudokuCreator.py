@@ -7,4 +7,5 @@ for i in range(cols):
     for j in range(rows):
         col.append(0)
     arr.append(col)
-print(arr)
+for row in arr:    
+    print(row)
